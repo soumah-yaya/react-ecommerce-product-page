@@ -93,7 +93,7 @@ export const OverlayContext = createContext<OverlayProps | null>(null);
 
 export default function ProductDetail() {
     const [product, setProduct] = useState<ProductType>(products);
-    const [showGalery, setShowGalery] = useState(true);
+    const [showGalery, setShowGalery] = useState(false);
     const [currentId, setCurrentId] = useState(1);
 
     return (
