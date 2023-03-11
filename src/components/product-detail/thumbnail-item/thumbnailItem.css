@@ -1,0 +1,30 @@
+.thumbnail-item {
+    position: relative;
+    width: 88px;
+    height: 88px;
+    overflow: hidden;
+    border-radius: 15%;
+    
+    cursor: pointer;
+}
+
+.thumbnail-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: var(--Light-grayish-blue);
+}
+
+.thumbnail-item:hover .thumbnail-overlay,
+.thumbnail-item:active .thumbnail-overlay,
+.thumbnail-item.active-thumbnail .thumbnail-overlay {
+    opacity: 1;
+
+}
+
+.thumbnail-item.active-thumbnail {
+    border: 2px solid var(--Orange);
+}

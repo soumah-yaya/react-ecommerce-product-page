@@ -1,0 +1,9 @@
+.product-big-imag {    
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 32px;
+
+}
+.hide {
+    display: none;
+}
